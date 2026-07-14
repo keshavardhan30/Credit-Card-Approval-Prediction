@@ -1,0 +1,11 @@
+Gender,Age,Income,Employment_Years,Loan_Amount,Credit_Score,Existing_Loan,Past_Due_Payments,Credit_Inquiries,Employment_Type,House_Owned,Education,Marital_Status,Approved
+Male,28,45000,5,120000,720,30000,0,1,Salaried,Yes,Graduate,Single,Yes
+Female,35,70000,10,200000,790,50000,0,0,Business,Yes,Postgraduate,Married,Yes
+Male,22,20000,1,80000,580,60000,3,5,Student,No,Graduate,Single,No
+Female,40,85000,15,250000,810,20000,0,1,Salaried,Yes,Postgraduate,Married,Yes
+Male,31,30000,3,150000,620,90000,2,4,Self-Employed,No,Graduate,Married,No
+Female,29,50000,6,100000,730,25000,0,1,Salaried,Yes,Graduate,Single,Yes
+Male,45,95000,20,300000,830,10000,0,0,Business,Yes,Postgraduate,Married,Yes
+Female,26,28000,2,90000,600,70000,2,3,Student,No,Graduate,Single,No
+Male,38,65000,12,180000,760,35000,1,1,Salaried,Yes,Graduate,Married,Yes
+Female,33,42000,7,130000,680,45000,1,2,Self-Employed,No,Graduate,Married,Yes

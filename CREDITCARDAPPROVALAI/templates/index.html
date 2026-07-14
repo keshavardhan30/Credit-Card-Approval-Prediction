@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Credit Card Approval</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+<header>
+
+    <div class="logo">
+
+        <i class="fa-solid fa-building-columns"></i>
+
+        SmartBank AI
+
+    </div>
+
+    <nav>
+
+        <a href="#">Home</a>
+
+        <a href="#">Services</a>
+
+        <a href="#">About</a>
+
+        <a href="#">Contact</a>
+
+    </nav>
+
+</header>
+
+
+<!-- Hero Section -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h1>Credit Card Approval Prediction</h1>
+
+        <p>
+
+            AI-powered credit eligibility prediction with secure banking standards.
+
+        </p>
+
+    </div>
+
+</section>
+
+
+<div class="main-container">
+
+<div class="form-card">
+
+<h2>
+
+<i class="fa-solid fa-user"></i>
+
+Applicant Information
+
+</h2>
+
+<form action="/predict" method="POST">
+
+<div class="grid">
+
+<div class="input-box">
+
+<label>Gender</label>
+
+<select name="Gender">
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Age</label>
+
+<input type="number" name="Age" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Income</label>
+
+<input type="number" name="Income" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Employment Years</label>
+
+<input type="number" name="Employment_Years" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Loan Amount</label>
+
+<input type="number" name="Loan_Amount" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Credit Score</label>
+
+<input type="number" name="Credit_Score" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Existing Loan</label>
+
+<input type="number" name="Existing_Loan" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Past Due Payments</label>
+
+<input type="number" name="Past_Due_Payments" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Credit Inquiries</label>
+
+<input type="number" name="Credit_Inquiries" required>
+
+</div>
+
+<div class="input-box">
+
+<label>Employment Type</label>
+
+<select name="Employment_Type">
+
+<option>Salaried</option>
+
+<option>Business</option>
+
+<option>Self-Employed</option>
+
+<option>Student</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>House Owned</label>
+
+<select name="House_Owned">
+
+<option>Yes</option>
+
+<option>No</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Education</label>
+
+<select name="Education">
+
+<option>Graduate</option>
+
+<option>Postgraduate</option>
+
+</select>
+
+</div>
+
+<div class="input-box">
+
+<label>Marital Status</label>
+
+<select name="Marital_Status">
+
+<option>Single</option>
+
+<option>Married</option>
+
+</select>
+
+</div>
+
+</div>
+
+<div class="button-area">
+
+<button type="submit">
+
+<i class="fa-solid fa-paper-plane"></i>
+
+Predict Approval
+
+</button>
+
+</div>
+
+</form>
+
+</div>
+
+
+<div class="side-card">
+
+<h3>Why Choose SmartBank AI?</h3>
+
+<div class="feature">
+
+<i class="fa-solid fa-robot"></i>
+
+<div>
+
+<h4>AI Powered</h4>
+
+<p>Advanced ML models for accurate approval prediction.</p>
+
+</div>
+
+</div>
+
+<div class="feature">
+
+<i class="fa-solid fa-bolt"></i>
+
+<div>
+
+<h4>Instant Results</h4>
+
+<p>Receive predictions in seconds.</p>
+
+</div>
+
+</div>
+
+<div class="feature">
+
+<i class="fa-solid fa-lock"></i>
+
+<div>
+
+<h4>Secure</h4>
+
+<p>Your information stays protected.</p>
+
+</div>
+
+</div>
+
+<div class="feature">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<div>
+
+<h4>Smart Decisions</h4>
+
+<p>Helps improve credit approval analysis.</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 SmartBank AI | Secure Banking Platform
+
+</footer>
+
+</body>
+
+</html>
